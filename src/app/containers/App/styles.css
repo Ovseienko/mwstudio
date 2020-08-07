@@ -1,0 +1,123 @@
+@import "../../static/scss/common.scss";
+
+.mv {
+    padding: 2rem 0 0;
+}
+
+.name {
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.subname {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+
+.banner {
+    margin-top: 2rem;
+    background-image: url("../../../images/banner.jpg");
+    height: 46rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.banner:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.banner h2 {
+    font-weight: 300;
+    font-size: 3.5rem;
+}
+
+.banner h4 {
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.projects h2, .about {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 3rem 0 2rem;
+    font-weight: 400;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.contacts {
+    background: var(--background-color);
+    padding: 0 1rem;
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts h5 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.map {
+    width: 70%;
+}
+
+.info {
+    width: 25%;
+    padding: 0 1rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
+.footer {
+    text-align: center;
+    font-size: 0.875rem;
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+    background: var(--background-color);
+}
+.services img {
+    max-width: 37.5rem;
+}
+
+.service-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-items > div {
+    width: 50%;
+}
