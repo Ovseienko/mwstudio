@@ -1,0 +1,251 @@
+:root {
+  --background-color: #f7f7f7;
+  --text-color: #4d4d4d;
+}
+
+@font-face {
+  font-family: "Brandon";
+  src: url(bd0b5482fffbc8bb950a0f64fccf4acc.eot); /* IE9*/
+  src: url(bd0b5482fffbc8bb950a0f64fccf4acc.eot?#iefix) format("embedded-opentype"), 
+  url(069c16e93e2cc85cd550be26d63c77d3.woff2) format("woff2"), 
+  url(6e7fd87e67b85ca57ae990b4768fb879.woff) format("woff"), 
+  url(57bc8125cd1371cd5941edb03cf4eb5f.ttf) format("truetype"), 
+  url(e47ff54510f0ab791ea08cbeef1f176d.svg#Brandon%20Grot%20W01%20Light) format("svg"); /* iOS 4.1- */
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Brandon;
+}
+
+body {
+  font: 1rem 'Brandon', Helvetica, sans-serif;
+  line-height: 1.4em;
+  background: #ffffff;
+  color: #4d4d4d;
+  color: var(--text-color);
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+button,
+input[type='checkbox'] {
+  outline: none;
+}
+
+._3kI3I {
+    padding: 2rem 0 0;
+}
+
+._7CuUI {
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+._3JchI {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+
+._18daU {
+    margin-top: 2rem;
+    background-image: url(56dc9d77ba6d7409214e9828ff3f0b05.jpg);
+    height: 46rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+._18daU:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+._8pFvw {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    z-index: 2;
+}
+
+._18daU h2 {
+    font-weight: 300;
+    font-size: 3.5rem;
+}
+
+._18daU h4 {
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+._1uUN1 h2, .vcguT {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 3rem 0 2rem;
+    font-weight: 400;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.kWQEM {
+    background: #f7f7f7;
+    background: var(--background-color);
+    padding: 0 1rem;
+    margin: 3rem 0;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+}
+
+.kWQEM h5 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+._2gfqs {
+    width: 70%;
+}
+
+._30SmU {
+    width: 25%;
+    padding: 0 1rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+._3WSwu {
+    text-align: center;
+    font-size: 0.875rem;
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+._3q3oJ {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    margin: 3rem 0;
+    background: #f7f7f7;
+    background: var(--background-color);
+}
+
+._3q3oJ img {
+    max-width: 37.5rem;
+}
+
+._3QxFe {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+}
+
+._3QxFe > div {
+    width: 50%;
+}
+
+._3BO2r {
+  &-item {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    min-height: 25rem;
+    margin-bottom: 1rem;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      -webkit-transform: translateX(10%);
+              transform: translateX(10%);
+    }
+  }
+
+  &-wrapper {
+    overflow: hidden;
+    cursor: pointer;
+
+    &:hover {
+      ._26NIP {
+        opacity: 0.7;
+      }
+    }
+  }
+
+  ._26NIP {
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+    z-index: 1;
+    fill: #fff;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  &-full {
+    position: fixed;
+    display: -webkit-box;
+    display: flex;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+
+    img {
+      display: block;
+      margin: auto;
+      max-width: 80%;
+      max-height: 80%;
+    }
+
+    ._26NIP {
+      cursor: pointer;
+      position: absolute;
+      right: 2rem;
+      top: 2rem;
+      z-index: 11;
+      fill: #fff;
+    }
+
+    svg {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+}
+
