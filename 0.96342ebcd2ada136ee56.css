@@ -23,6 +23,12 @@ body {
   font-family: Brandon;
 }
 
+html{
+  position: absolute;
+  overflow-x: hidden;
+  width: 100%;
+}
+
 body {
   font: 1rem 'Brandon', Helvetica, sans-serif;
   line-height: 1.4em;
@@ -35,6 +41,7 @@ body {
   -ms-font-smoothing: antialiased;
   font-smoothing: antialiased;
   font-weight: 300;
+  width: 100%;
 }
 
 button,
@@ -62,7 +69,7 @@ input[type='checkbox'] {
 }
 
 ._3cOqd .icon {
-    margin-right: 1rem;
+    margin-right: .5rem;
 }
 
 .icon--facebook {
@@ -138,6 +145,8 @@ input[type='checkbox'] {
 ._18daU h2 {
     font-weight: 300;
     font-size: 3.5rem;
+    line-height: normal;
+    line-height: initial;
 }
 
 ._18daU h4 {
@@ -240,6 +249,9 @@ input[type='checkbox'] {
     .kWQEM{
         padding: 1rem 0;
         display: block;
+    }
+    ._18daU h2 {
+        font-size: 3rem;
     }
 }
 
