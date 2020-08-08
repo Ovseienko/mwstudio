@@ -75,6 +75,8 @@ input[type='checkbox'] {
 .icon--facebook {
      fill: #3b5998;
      fill: var(--facebook-color);
+    margin-right: .25rem;
+    margin-top: 1px;
  }
 
 .icon--instagram {
@@ -86,6 +88,7 @@ input[type='checkbox'] {
 .icon--linkedin {
     fill: #0e76a8;
     fill: var(--linkedin-color);
+    margin-right: 0;
 }
 
 .icon:hover {
