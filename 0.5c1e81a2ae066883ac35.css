@@ -158,18 +158,45 @@ input[type='checkbox'] {
 }
 
 ._3q3oJ img {
-    max-width: 37.5rem;
+    max-width: 44rem;
 }
 
 ._3QxFe {
+    width: calc(100% - 44rem);
     display: -webkit-box;
     display: flex;
     -webkit-box-pack: justify;
             justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 ._3QxFe > div {
-    width: 50%;
+    -webkit-box-flex: 1;
+            flex: 1 0 49%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+._3QxFe p {
+    font-weight: 400;
+}
+
+@media (max-width: 760px) {
+    ._3q3oJ img {
+        display: none;
+    }
+    ._3QxFe,
+    ._30SmU,
+    ._2gfqs {
+        width: 100%;
+    }
+    .kWQEM{
+        padding: 1rem 0;
+        display: block;
+    }
 }
 
 ._3BO2r {
