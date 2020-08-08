@@ -17,6 +17,12 @@ body {
   font-family: Brandon;
 }
 
+html{
+  position: absolute;
+  overflow-x: hidden;
+  width: 100%;
+}
+
 body {
   font: 1rem 'Brandon', Helvetica, sans-serif;
   line-height: 1.4em;
@@ -28,6 +34,7 @@ body {
   -ms-font-smoothing: antialiased;
   font-smoothing: antialiased;
   font-weight: 300;
+  width: 100%;
 }
 
 button,
