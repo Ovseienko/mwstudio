@@ -12,13 +12,13 @@ export namespace App {
 }
 const images = [
     {
-        src: "../../images/banner.jpg",
+        src: "/images/banner.jpg",
         width: 1,
         height: 1,
         alt: "Стеклянные перегородки"
     },
     {
-        src: "../../images/1.jpg",
+        src: "/images/1.jpg",
         width: 1,
         height: 1,
         alt: "Стеклянные перегородки"
